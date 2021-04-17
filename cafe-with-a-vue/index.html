@@ -18,7 +18,15 @@
 			</p>
 			<footer class="footer">
 				<p>Copyright La belle vue 2020</p>
-			</footer>
+			</footer><script>
+		    // Vue n'est pas encore chargé donc une ReferenceError devrait être retournée
+		    console.log(Vue)
+		    </script>
+		    <script src="https://cdn.jsdelivr.net/npm/vue>"></script>
+		    <script>
+			// La console devrait maintenant afficher une fonction
+			console.log(Vue)
+		    </script>
 		</div>
 	</body>
 </html>
